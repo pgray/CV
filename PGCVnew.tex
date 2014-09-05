@@ -6,6 +6,7 @@
 \usepackage[usenames,dvipsnames]{xcolor} % Required for specifying custom colors
 \usepackage{fullpage}
 \usepackage{hyperref} % Required for adding links	and customizing them
+\usepackage[margin=0.5in]{geometry}
 \definecolor{linkcolour}{rgb}{0,0.2,0.6} % Link color
 \hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour} % Set link colors throughout the document
 \usepackage{titlesec} % Used to customize the \section command
@@ -15,18 +16,17 @@
 \pagestyle{empty} 
 \font\fb=''[cmr10]'' % Change the font of the \LaTeX command under the skills section
 
+
 %----------------------------------------------------------------------------------------
 %	NAME AND CONTACT INFORMATION
 %----------------------------------------------------------------------------------------
 \par{\centering{\Huge Patrick \textsc{Gray}}\par} % Your name
-\par{\centering{Software \textsc{Engineer}}\par}
+\par{\centering{Computer \textsc{Engineer}}\par}
 
 \section{Personal Data}
-\begin{tabular}{rp{10cm}}
-\textsc{Phone:} & +1 609 240 5091 \\
-\textsc{Email:} & \href{mailto:patgray1127@gmail.com}{patgray1127@gmail.com}\\
-\textsc{Github:} & \href{http://github.com/grayisthemood}{github.com/grayisthemood}\\
-\end{tabular}
+%\begin{tabular}{rp{10cm}}
+\centering\textsc{{Phone:} +1 609 240 5091 | {Email:}  \href{mailto:patgray1127@gmail.com}{patgray1127@gmail.com} | {Github:}  \href{http://github.com/graycoder}{github.com/graycoder}}\\
+%\end{tabular}
 
 
 %----------------------------------------------------------------------------------------
@@ -36,8 +36,8 @@
 \section{Languages and Tools}
 
 \begin{tabular}{rp{10cm}}
-\textsc{Different Languages:} & C/C++, Verilog, MATLab, Objective C, Java\\
-\textsc{Tools and Methods:} & Git, CI, Agile, Bash Scripting, Drupal, SQL Databases, AWS, \LaTeX\\
+\textsc{Different Languages:} & C, HTML/CSS, PHP, Bash, C++/Java, Objective C, Go\\
+\textsc{Tools and Methods:} & Git, FireBug, CI, Agile, Docker, Drupal, MySQL, PostgreSQL, AWS (EC2/RDS), Atlassian (Jira, Stash, Bamboo, Confluence)\\
 \multicolumn{2}{c}{}\\
 \end{tabular}
 
@@ -50,9 +50,8 @@
 \begin{tabular}{r|p{10cm}}	
 \textsc{Sep 2009 - May 2013} & Bachelor of Science in \textsc{Electrical and Computer Engineering}\\
 & \small\emph{Rutgers, The State University of New Jersey -  GPA: 3.05}\\
-& \footnotesize{Computer Architecture and Assembly Language, Digital Logic Design, Programming Methodology I (C++), II (Java), Operating System Design, Software Engineering, Parallel and Distributed Computing, Virtual Reality, Network Centric Programming}\\
+& \footnotesize{Computer Architecture and Assembly Language, Digital Logic Design, Programming Methodology I and II, Operating System Design, Software Engineering, Parallel and Distributed Computing, Virtual Reality, Network Centric Programming}\\
 \multicolumn{2}{c}{}\\
-
 \end{tabular}
 
 
@@ -63,28 +62,28 @@
 
 \section{Work Experience}
 \begin{tabular}{r|p{10cm}}
-\textsc{Nov 2013 - Present} & {IT Infrastructure Contractor at DirecTV via Robert Half Technology}\\
-&\small\emph{lifeshield.com}\\
-&\footnotesize{Optimized warehouse software to cut install time in half by developing and incorporating an android application. Derived a method of cleaning DBMail databases from the application's source code. Implemented continuous integration, Atlassian Bamboo, for the android development team.}\\
+\textsc{Nov 2013 - July 2014} & {IT Infrastructure Contractor at DIRECTV via Robert Half Technology}\\
+&\small\emph{\href{http://lifeshield.com}{lifeshield.com}}\\
+&\footnotesize{Rewrote warehouse software to optimize time required to customize android tablets, which included writing a small android app. Debugged an open source C email system to develop a way of cleaning a legacy database. Installed and administered Atlassian Jira, Stash, Confluence, Bamboo, FishEye, Crucible, as well as the machines they ran upon. Debugged at all levels of the stack. Worked with Amazon EC2/RDS as well as a local VMWare cluster. Produced requirements documents and system diagrams, communicated with vendors and product engineers, and vetted the technical side of a multi-million dollar project to bring in a PaaS for future development and expansion of services.}\\
 \multicolumn{2}{c}{}\\
 
 \textsc{Oct 2012 - Apr 2013} & Web Dev. Intern at \textsc{Professional Science Master's Program}\\
-& \small\emph{psm.rutgers.edu}\\
-& \footnotesize{Department web developer/admin. Migrated the site to a virtual backend.}\\
+& \small\emph{\href{http://psm.rutgers.edu}{psm.rutgers.edu}}\\
+& \footnotesize{Department web developer/admin. Responsible for design and functionality changes of a Drupal site. Aided in moving the site to a virtual backend.}\\
 \multicolumn{2}{c}{} \\
 
 %------------------------------------------------
 
 \textsc{Jun 2012 - Aug 2012} & Web Developer for Innovation Park@Rutgers\\
-& \small\emph{ipark.rutgers.edu}\\
-& \footnotesize{Built a Drupal website on Windows Server. Completed set goals early, allowing for refinements and changes to original plans while still under original development timeline.}\\
+& \small\emph{\href{http://ipark.rutgers.edu}{ipark.rutgers.edu}}\\
+& \footnotesize{Built a Drupal website on Windows Server and customized the theme, functionality, and data types. Completed set goals early, allowing for refinements and changes to original plans while still under original development timeline.}\\
 \multicolumn{2}{c}{}\\
 
 %------------------------------------------------
 
 \textsc{Apr 2011 - Sep 2012} & iOS/Web Dev. Intern at \textsc{Rutgers Advanced Technology Extension}\\
-& \small\emph{rate.rutgers.edu, hackerspace.rutgers.edu}\\
-& \footnotesize{Developed an iPad application for the continuing education User Experience Design course. Post-completion, focused on the development of Drupal websites.}
+& \small\emph{\href{http://rate.rutgers.edu}{rate.rutgers.edu}, \href{http://hackerspace.rutgers.edu}{hackerspace.rutgers.edu}}\\
+& \footnotesize{Developed an iPad application for the continuing education User Experience Design course. Post-completion, focused on the development of Drupal websites using HTML/CSS and PHP.}
 \end{tabular}
 
 %----------------------------------------------------------------------------------------
@@ -95,7 +94,7 @@
 
 \begin{tabular}{rp{10cm}}
 \textsc{Jan 2013 - May 2013} & ASUH: API for the Scientific Utilization of Heterogeneity\\
-& \small\emph{github.com/jlee734/ASUH}\\
+& \small\emph{\href{http://github.com/jlee734/ASUH}{ASUH}}\\
 & \small\textsc{An API to transfer data analysis off HPCs and decrease utilization time by providing remote CPU and GPU execution methods.}\\
 \multicolumn{2}{c}{}\\
 
