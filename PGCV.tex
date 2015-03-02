@@ -1,7 +1,6 @@
-\documentclass[a4paper,10pt, onepage]{article} % Default font size and paper size
+\documentclass[a4paper, 10pt, onepage]{article} % Default font size and paper size
 \usepackage{fontspec} % For loading fonts
-\defaultfontfeatures{Mapping=tex-text}
-\setmainfont[SmallCapsFont = Times New Roman]{Times New Roman}
+\setmainfont{DroidSans}
 \usepackage{xunicode,xltxtra,url,parskip} % Formatting packages
 \usepackage[usenames,dvipsnames]{xcolor} % Required for specifying custom colors
 \usepackage{fullpage}
@@ -12,111 +11,56 @@
 \usepackage{titlesec} % Used to customize the \section command
 \titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule] % Text formatting of sections
 \titlespacing{\section}{0pt}{1pt}{1pt} % Spacing around sections
+
 \begin{document}
 \pagestyle{empty} 
-\font\fb=''[cmr10]'' % Change the font of the \LaTeX command under the skills section
-
-
-%----------------------------------------------------------------------------------------
-%	NAME AND CONTACT INFORMATION
-%----------------------------------------------------------------------------------------
-\par{\centering{\Huge Patrick \textsc{Gray}}\par} % Your name
+\par{\centering{\Huge Patrick \textsc{Gray}}\par}
 \par{\centering{Computer \textsc{Engineer}}\par}
-
 \section{Personal Data}
-%\begin{tabular}{rp{10cm}}
 \centering\textsc{{Phone:} +1 609 240 5091 | {Email:}  \href{mailto:patgray1127@gmail.com}{patgray1127@gmail.com} | {Github:}  \href{http://github.com/graycoder}{github.com/graycoder}}\\
-%\end{tabular}
-
-
-%----------------------------------------------------------------------------------------
-%	Proficiencies
-%----------------------------------------------------------------------------------------
-
 \section{Languages and Tools}
-
 \begin{tabular}{rp{10cm}}
-\textsc{Different Languages:} & C, HTML/CSS, PHP, Bash, C++/Java, Objective C, Go\\
-\textsc{Tools and Methods:} & Git, FireBug, CI, Agile, Docker, Drupal, MySQL, PostgreSQL, AWS (EC2/RDS), Atlassian (Jira, Stash, Bamboo, Confluence)\\
+\textsc{Different Languages:} & C, HTML/CSS, Bash, C++/Java, Objective C, Go\\
+\textsc{Tools and Methods:} & Git, Puppet, Docker, Drupal, MySQL, PostgreSQL, AWS (EC2/RDS), Atlassian (Jira, Stash, Bamboo, Confluence)\\
 \multicolumn{2}{c}{}\\
 \end{tabular}
-
-%----------------------------------------------------------------------------------------
-%	EDUCATION
-%----------------------------------------------------------------------------------------
-
 \section{Education}
-
 \begin{tabular}{r|p{10cm}}	
 \textsc{Sep 2009 - May 2013} & Bachelor of Science in \textsc{Electrical and Computer Engineering}\\
-& \small\emph{Rutgers, The State University of New Jersey -  GPA: 3.05}\\
+& \small\emph{Rutgers, The State University of New Jersey}\\
 & \footnotesize{Computer Architecture and Assembly Language, Digital Logic Design, Programming Methodology I and II, Operating System Design, Software Engineering, Parallel and Distributed Computing, Virtual Reality, Network Centric Programming}\\
 \multicolumn{2}{c}{}\\
 \end{tabular}
-
-
-
-%----------------------------------------------------------------------------------------
-%	WORK EXPERIENCE 
-%----------------------------------------------------------------------------------------
-
 \section{Work Experience}
 \begin{tabular}{r|p{10cm}}
+\textsc{Sep 2014 - Present} & {Linux/DevOps Engineer at Reliant Solutions}\\
+&\small\emph{\href{http://reliantsolutions.com}{reliantsolutions.com}}\\
+&\footnotesize{Responsible for managing multiple clients' infrastructures with Puppet and applying new features, services, and optimizations in a continuous integration and delivery manner. Constantly evaluating new technologies and methods for decreasing technical debt in order to create systems that run leaner and with more stability.}\\
+\multicolumn{2}{c}{}\\
 \textsc{Nov 2013 - July 2014} & {IT Infrastructure Contractor at DIRECTV via Robert Half Technology}\\
 &\small\emph{\href{http://lifeshield.com}{lifeshield.com}}\\
 &\footnotesize{Rewrote warehouse software to optimize time required to customize android tablets, which included writing a small android app. Debugged an open source C email system to develop a way of cleaning a legacy database. Installed and administered Atlassian Jira, Stash, Confluence, Bamboo, FishEye, Crucible, as well as the machines they ran upon. Debugged at all levels of the stack. Worked with Amazon EC2/RDS as well as a local VMWare cluster. Produced requirements documents and system diagrams, communicated with vendors and product engineers, and vetted the technical side of a multi-million dollar project to bring in a PaaS for future development and expansion of services.}\\
 \multicolumn{2}{c}{}\\
-
 \textsc{Oct 2012 - Apr 2013} & Web Dev. Intern at \textsc{Professional Science Master's Program}\\
 & \small\emph{\href{http://psm.rutgers.edu}{psm.rutgers.edu}}\\
 & \footnotesize{Department web developer/admin. Responsible for design and functionality changes of a Drupal site. Aided in moving the site to a virtual backend.}\\
-\multicolumn{2}{c}{} \\
-
-%------------------------------------------------
-
+\multicolumn{2}{c}{}\\
 \textsc{Jun 2012 - Aug 2012} & Web Developer for Innovation Park@Rutgers\\
 & \small\emph{\href{http://ipark.rutgers.edu}{ipark.rutgers.edu}}\\
 & \footnotesize{Built a Drupal website on Windows Server and customized the theme, functionality, and data types. Completed set goals early, allowing for refinements and changes to original plans while still under original development timeline.}\\
 \multicolumn{2}{c}{}\\
-
-%------------------------------------------------
-
 \textsc{Apr 2011 - Sep 2012} & iOS/Web Dev. Intern at \textsc{Rutgers Advanced Technology Extension}\\
 & \small\emph{\href{http://rate.rutgers.edu}{rate.rutgers.edu}, \href{http://hackerspace.rutgers.edu}{hackerspace.rutgers.edu}}\\
 & \footnotesize{Developed an iPad application for the continuing education User Experience Design course. Post-completion, focused on the development of Drupal websites using HTML/CSS and PHP.}
 \end{tabular}
-
-%----------------------------------------------------------------------------------------
-%	Projects and Activities
-%----------------------------------------------------------------------------------------
-
-\section{Projects and Activities}
-
+\section{Projects/Experiences}
 \begin{tabular}{rp{10cm}}
 \textsc{Jan 2013 - May 2013} & ASUH: API for the Scientific Utilization of Heterogeneity\\
 & \small\emph{\href{http://github.com/jlee734/ASUH}{ASUH}}\\
 & \small\textsc{An API to transfer data analysis off HPCs and decrease utilization time by providing remote CPU and GPU execution methods.}\\
 \multicolumn{2}{c}{}\\
-
 \textsc{Sep 2009 - May 2013} & Rutgers D1 Track and Field Athlete: \emph{Pole Vaulter}\\
 & \small{Devoted 30+ hours a week to training in addition to full course load.}\\
-& \small{Perservered through reoccurring injuries to recover and accomplish goals.}\\
 \multicolumn{2}{c}{}\\
-
-%\textsc{Feb 2012 \& Nov 2012} & Video Editing for School Projects\\
-
-%\textsc{June 2010}& {\textsc{Gmat}\textregistered}\setmainfont[SmallCapsFont=Fontin SmallCaps]{Fontin-Regular}: 730 (\textsc{q:50;v:39}) 96\textsuperscript{th} percentile; \textsc{awa}: 6.0/6.0 (89\textsuperscript{th} percentile)
 \end{tabular}
-
-
-%----------------------------------------------------------------------------------------
-%	INTERESTS AND ACTIVITIES
-%----------------------------------------------------------------------------------------
-
-%\section{Interests}
-
-%Open-Source, Low Light Photography, Snowboarding, World Travel, Cryptocurrencies and their implications\\
-%----------------------------------------------------------------------------------------
-
-
 \end{document}
