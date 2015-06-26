@@ -9,6 +9,6 @@ users:
     passwd: $1$HJ6sJLpz$Zsua6OklqJLE4FA0tHWmt0
     groups:
       - sudo
-	  - docker
+      - docker
     ssh-authorized-keys:
       - ssh-rsa - AAAAB3NzaC1yc2EAAAADAQABAAABAQDF+J8gy6NVe4l0GgV6FBHOSiJ/WEriAfVsfwNii47VMK+2e+0BA8M/18DzwmEu7OyqiDASHCGsZxQNNUjhwPiQGAaNJkIloozWJZomDS34OCLfga/zhyEwGXKXGZsARpe85CZJMsvPXUuOfCBNmi8RtEp9jwf2y7Hh/BGfJY7E9T9cvuRRdIUZsK1uwnpSM0m0XJq6Ocj/AUJnDKNNBKZqQupwm++aay6adjV8DhqTGc2r4NStOLlnMMC2s1qiAsv2s2BoNRDMCzVhJBC2TFaWny2pfzxsA+ZWhd1JGNHKe3WjzRayu1RuyyuxUCGs+jj/FJwnOBhnY/GoBQb5Z9wZ
