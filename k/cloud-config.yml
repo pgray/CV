@@ -2,6 +2,7 @@
 hostname: pjg
 users:
 - name: pg
+  passwd: $1$6mDJ9GfH$PKGcSFC3KQRXum65l8Vpp1
   groups:
   - sudo
   - docker
