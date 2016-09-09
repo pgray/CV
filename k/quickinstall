@@ -1,3 +1,0 @@
-wget https://raw.githubusercontent.com/coreos/init/master/bin/coreos-install
-chmod 700 coreos-install
-wget https://raw.githubusercontent.com/GrayCoder/CV/master/k/cloud-config.yml
